@@ -6,7 +6,7 @@ text = "  hello, qa world!  "
 nex_text = text.strip().capitalize()
 print(nex_text)
 
-
+print()
 # Task 2 — Upper, lower, replace
 # Given email = "Denis.Berg@Company.COM". Print it in all lowercase. Then replace @company.com with @gmail.com.
 
@@ -14,7 +14,7 @@ email = "Denis.Berg@Company.COM"
 new_email = email.lower().replace("@company.com", "@gmail.com")
 print(new_email)
 
-
+print()
 #Task 3 — Split and join
 # Given tags = "smoke,regression,api,ui". Split it into a list and print each tag on a new line. Then join them back
 # with | separator and print.
@@ -27,7 +27,7 @@ for tag in new_tags:
 
 print(" | ".join(new_tags))
 
-
+print()
 # Task 4 — String contains and startswith
 # Given url = "https://customs.finland.gov/api/v1/users". Check and print:
 #
@@ -41,7 +41,7 @@ print(f"Starts with https: {url.startswith('https')}")
 print(f"Contains api: {'api' in url}")
 print(f"Ends with users: {url.endswith('users')}")
 
-
+print()
 # Task 5 — Slicing
 # Given error_code = "ERR-404-NOT_FOUND". Extract and print using slicing:
 #
