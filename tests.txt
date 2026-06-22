@@ -1,0 +1,4 @@
+test_login
+test_logout
+test_search
+test_checkout
