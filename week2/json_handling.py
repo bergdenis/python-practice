@@ -38,13 +38,13 @@ config = {
     "retries": 3
 }
 
-with open("config.json", "w") as file:
+with open("../config.json", "w") as file:
     json.dump(config, file, indent=2)
 
 print()
 # Task 5 — Read JSON from file
 # Read config.json you just created and print each key-value pair.
-with open("config.json", "r") as file:
+with open("../config.json", "r") as file:
     config_data = json.load(file)
     for key, value in config_data.items():
         print(f"{key}: {value}")
