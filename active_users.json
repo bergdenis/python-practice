@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Denis",
+    "role": "admin",
+    "active": true
+  },
+  {
+    "name": "Anna",
+    "role": "editor",
+    "active": true
+  },
+  {
+    "name": "Elena",
+    "role": "admin",
+    "active": true
+  }
+]
