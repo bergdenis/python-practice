@@ -22,10 +22,11 @@ class BasePage:
         print(f"Typing '{text}' into {element}")
 
 
-page = BasePage("https://example.com")
-page.open()
-page.click("login button")
-page.type_text("username field", "denis")
+if __name__ == "__main__":
+    page = BasePage("https://example.com")
+    page.open()
+    page.click("login button")
+    page.type_text("username field", "denis")
 
 # Part 2 — LoginPage (inherits from BasePage)
 # Create a class LoginPage that inherits from BasePage and adds one high-level method login(username, password).
@@ -43,8 +44,9 @@ class LoginPage(BasePage):
         self.click("login button")
 
 
-login_page = LoginPage("https://example.com/login")
-login_page.login("denis", "secret123")
+if __name__ == "__main__":
+    login_page = LoginPage("https://example.com/login")
+    login_page.login("denis", "secret123")
 
 # Key idea: LoginPage doesn't rewrite open, type_text, or click — it inherits them from BasePage and combines them into
 # one meaningful business scenario login(). This is the essence of Page Object Model.
