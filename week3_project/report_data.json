@@ -1,0 +1,11 @@
+{
+  "suite_name": "Login Suite",
+  "tests": [
+    {"name": "test_valid_login", "status": "passed", "duration": 120},
+    {"name": "test_invalid_password", "status": "failed", "duration": 340},
+    {"name": "test_empty_username", "status": "passed", "duration": 90},
+    {"name": "test_sql_injection", "status": "passed", "duration": 210},
+    {"name": "test_session_timeout", "status": "failed", "duration": 450},
+    {"name": "test_remember_me", "status": "skipped", "duration": 0}
+  ]
+}
